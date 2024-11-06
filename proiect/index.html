@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+  <script src="script.js"></script>
+	<title>WEBSITE FREELANCER</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+	<img id="logo_img" src="logo.png" width="32 px">
+	<nav id="desktop">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#servicii">Servicii</a></li>
+			<li><a href="#portofoliu">Portofoliu</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul> 
+	</nav>
+	<div class="hamburger" onclick="show_menu()">
+		<img src="meniu.png" >
+	</div>
+    <nav id="mobile">
+        <div id="cross_logo">
+            <img src="cross.png" alt="" onclick="hide_menu()">
+        </div>
+        <ul onclick="hide_menu()">
+            <a href="#">
+                <li>Home</li>
+            </a>
+            <a href="#servicii">
+                <li>Servicii</li
+                    ></a>
+            <a href="#portofoliu">
+                <li>Portofoliu</li>
+            </a>
+            <a href="#contact">
+                <li>Contact</li>
+            </a>
+            </ul>
+    </nav>
+</header>
+
+<section id="hero">
+	<div id="desc">
+	<h1>Mîtcă Cristina-Georgiana</h1>
+	<p>Programator & designer web.</p>
+	<p>Full stack dev-HTML5, CSS3, JS, PHP & MySql. I create various websites and web applications. Atention to details, I adapt easily, analytical and results-oriented thinking.</p>
+    </div>
+    <div>
+    	<img src="poza.png">
+    </div>
+ </section>
+ <section  id="servicii">
+    <h1>Servicii oferite</h1>
+    <article>
+        <img src="<?php .$row[imagine].?>" width="32px" >
+        <h2>Design grafic</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </article>
+    <article>
+        <img src="poza2.png" width="32px" >
+        <h2>Dezvoltare front-end</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </article>
+    <article>
+        <img src="poza3.png" width="32px">
+        <h2>Dezvoltare back-end</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </article>
+
+</section>
+<h1 id="h1portofoliu">Portofoliu</h1>
+
+
+<section id="portofoliu">
+    <article>
+        <h3>UAB.RO</h3>
+        <img src="poza2.png" width="32px" >
+        <img src="poza3.png" width="32px" >
+        <h2>Full website</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </article>
+    <article>
+        <h3>ELIT</h3>
+        <img src="poza1.png" width="32px" >
+        <h2>Branding & catalog</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </article>
+    <article>
+        <h3>TECHNOMID.RO</h3>
+        <img src="poza3.png" width="32px" >
+        <h2>Backend CMS</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </article>
+    <article>
+        <h3>FanCourier</h3>
+        <img src="poza1.png" width="32px" >
+        <img src="poza2.png" width="32px" >
+        <img src="poza3.png" width="32px" >
+        <h2>Branding inovator</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </article>
+    <article>
+        <h3>ATLANT</h3>
+        <img src="poza2.png" width="32px" >
+        <img src="poza3.png" width="32px" >
+        <h2>Dezvoltare front-end</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </article>
+    <article>
+        <h3>CERES</h3>
+        <img src="poza1.png" width="32px" >
+        <img src="poza2.png" width="32px" >
+        <img src="poza3.png" width="32px" >
+        <h2>Design grafic</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </article>
+    
+
+</section>
+
+
+<section id="contact">
+    <h1>Contacteaza-ma pentru orice detalii</h1>
+    <article>
+        <h1>Informatii de contact:</h1>
+        <h2>Adresa postala</h2>
+        <p>Strada Pinului 45, Alba Iulia, jud. Alba.</p>
+        <p><h3>Tel.:</h3>0751118943</p>
+        <p><h3>Email.:</h3>georgymitca@gmail.com</p>
+        <h2>Social media:</h2>
+        <img src="logo.png" width="32px" >
+        <img src="logo.png" width="32px" >
+        <img src="logo.png" width="32px" >
+    </article>
+
+    <article >
+        <h1>Scrie un mesaj aici:</h1>
+
+        <form action="">
+            <div class="row">
+            <div class="label-col">
+                <label class="label" for="nume"><h3>Nume</h3></label>
+            </div>
+            <div class="input-col">
+                <input type="text" id="nume" name="nume">
+            </div>
+            </div>
+            <div class="row">
+            <div class="label-col">
+                <label class="label" for="email"><h3>Email</h3></label>
+            </div>
+            <div class="input-col">
+                <input type="text" id="email" name="email">
+            </div>
+            </div>
+            <div class="row">
+            <div class="label-col">
+                <label for="subject"><h3>Subject</h3></label>
+            </div>
+            <div class="input-col">
+                <select id="subject" name="subject">
+                <option value="general">General</option>
+                <option value="partnership">Partnership</option>
+                <option value="issue">Issue</option>
+                </select>
+            </div>
+            </div>
+            <div class="row">
+            <div class="label-col">
+                <label class="label" for="mesaj"><h3>Mesaj</h3></label>
+            </div>
+            <div class="input-col">
+                <textarea id="mesaj" name="mesaj" style="height:200px"></textarea>
+            </div>
+            </div>
+            <div class="row">
+            <input type="submit" value="Trimite">
+            </div>
+        </form>
+    </article>
+</section>
+
+
+<footer>
+    <img src="logo.png">
+    <p>&copy 2023. Design si Implementare: Mîtcă Cristina-Georgiana. Toate drepturile rezervate.</p>
+</footer>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
